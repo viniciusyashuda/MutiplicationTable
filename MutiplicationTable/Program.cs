@@ -6,23 +6,18 @@ namespace MultiplicationTable
     {
         static void Main(string[] args)
         {
-
             int result;
 
-            for (int i = 0; i < 11; i++)
+            for (int number1 = 0; number1 < 11; number1++)
             {
-
-                for (int j = 0; j < 11; j++)
+                for (int number2 = 0; number2 < 11; number2++)
                 {
-
-                    result = i * j;
-                    Console.WriteLine(i + " * " + j + " = " + result);
-
+                    result = number1 * number2;
+                    Console.WriteLine(number1 + " * " + number2 + " = " + result);
                 }
 
                 Console.WriteLine("\n");
                 Console.ReadKey();
-
             }
 
             Console.ReadKey();
